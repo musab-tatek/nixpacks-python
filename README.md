@@ -14,7 +14,7 @@
 1. **Clone the Repository:**
 
     ```bash
-    git clone https://github.com/your_username/nixpacks-python.git
+    git clone https://github.com/musab-tatek/nixpacks-python.git
     ```
 
 2. **Navigate to the Project Directory:**
