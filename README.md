@@ -1,13 +1,6 @@
 # nixpacks-python
 
-`nixpacks-python` is a Python library for building source images using Nixpacks, a versatile source builder. This library leverages Rust's performance and PyO3 for seamless integration with Python.
-
-## Features
-
-- **Flexible Build Plans:** Easily define build plans for your projects with customizable options.
-- **Docker Integration:** Seamlessly build Docker images with customizable Dockerfile generation.
-- **Dependency Management:** Manage dependencies effortlessly with support for both APT and Nix packages.
-- **Environment Configuration:** Configure build environments with environment variables and configuration files.
+`nixpacks-python` is a Python library for building source images using [Nixpacks](https://github.com/railwayapp/nixpacks), a versatile source builder. 
 
 ## Installation
 
