@@ -1,6 +1,6 @@
 # nixpacks-python
 
-`nixpacks-python` is a Python library for building source images using [Nixpacks](https://github.com/railwayapp/nixpacks), a versatile source builder. 
+`nixpacks-python` is a Python library for building source images using [Nixpacks](https://github.com/railwayapp/nixpacks). 
 
 ## Installation
 
@@ -44,9 +44,8 @@ import nixpacks_python
 ```python
 path = "/path/to/your/project"
 env_vars = ["VAR1=value1", "VAR2=value2"]
-config_file = "config.toml"
 
-providers = nixpacks_python.detect(path, env_vars, config_file)
+providers = nixpacks_python.detect(path, env_vars)
 print(providers)
 ```
 
@@ -90,9 +89,8 @@ verbose = False
 docker_host = "tcp://localhost:2375"
 docker_tls_verify = "/path/to/cert.pem"
 env_vars = ["VAR1=value1", "VAR2=value2"]
-config_file = "config.toml"
 
-nixpacks_python.build(path, name, out_dir, print_dockerfile, tags, labels, quiet, cache_key, no_cache, inline_cache, cache_from, platform, current_dir, no_error_without_start, incremental_cache_image, cpu_quota, memory, verbose, docker_host, docker_tls_verify, env_vars, config_file)
+nixpacks_python.build(path, name, out_dir, print_dockerfile, tags, labels, quiet, cache_key, no_cache, inline_cache, cache_from, platform, current_dir, no_error_without_start, incremental_cache_image, cpu_quota, memory, verbose, docker_host, docker_tls_verify, env_vars)
 ```
 
 ## Contribution
